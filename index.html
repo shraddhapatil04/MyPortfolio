@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- bootstrap 4.67v links below -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  
+  <!-- external css link attached below -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+  
+  <!-- aos link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <title>Shraddha Portfolio</title>
+</head>
+<body>
+  <div class="portfolio_mdiv">
+      <div class="navigation_bar">
+        
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><span class="logo">Shraddha</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About"><span class="navmenu">About</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="navmenu">Skills</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="navmenu">Projects</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact"><span class="navmenu">Contact</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+      <!-- nav bar dic closed here -->
+      <div class="content-portfolio" >
+        <div id="home" class="homesec">
+          <div class="homesectiondiv">
+            <span class="ginfo">Hello</span><br>
+            <span class="ginfo" data-aos="slide-up">My name is </span><br>
+            <p class="myname" data-aos="slide-right">Shraddha patil</p><br>
+            <span class="ginfo">I am a <span class="designation" >Full Stack Developer</span></span><br><br>
+            <button class="rsm" data-aos="zoom-in-up" data-aos-offset="100"  >RESUME</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  <!-- portfoliodiv ends here -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+          AOS.init({
+            duration: 1500
+          });
+  </script>
+
+  <!-- About me -->
+  <div class="myabout" id="About" data-aos="zoom-in-down" data-aos-offset="200" >
+    <h1>About Me </h1>
+    <p>my Introduction</p>
+</div>
+<div class="">
+  <section class="hero" data-aos="zoom-in-up" data-aos-offset="300" >
+    <div class="about-section">
+        <div class="inner-containt">
+            <p class="text">
+              Hi I'm Shraddha Patil.I'm Computer science student,
+              a passionate  full stack developer with a strong knowlage in both front-end and back-end technologies.
+              I thrive on the challenge of creating dynamic and responsive web applications, and I'm excited to leverage my skills to build innovative solutions.
+               Check out some of my work in the Project section.
+
+                I also like sharing content related to the stuff that I have learned over the years in full stack 
+                Development so it can help other people of the Dev Community. Feel free to Connect or Follow
+                me on my <span class="linkedin"><a href="https://www.linkedin.com/in/shraddha-patil-a414b3263"
+                        target="_blank">Linkedin</a></span> where I post useful content
+                related to Web Development and Programming
+
+                I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
+                opportunity that matches my skills and experience then don't hesitate to contact me.
+                
+            </p>
+        </div>
+    </div>
+</section>
+</div>
+
+ 
+<!--my contact -->
+<div class="mycontact" id="Contact" data-aos="zoom-in-down" data-aos-offset="200" >
+  <h1>Contact ME</h1>
+  <p>Lets get in tuch.</p>
+</div>
+
+<section id="footer" data-aos="zoom-in-up" data-aos-offset="300">
+  <div class="subscribe">
+      <input type="text" placeholder="Enter Name">
+  </div>
+  <div class="subscribe">
+      <input type="text" placeholder="Phone Number">
+  </div>
+  <div class="subscribe">
+      <input type="text" placeholder="Enter E-mail">
+  </div>
+  <div class="submitbtn">
+      <button>Submit</button>
+  </div>
+
+  <div class="footer-row">
+      <div>
+          <h2>Address</h2>
+          <p>Karve Nagar</p>
+          <p>Hingane home colony</p>
+          <p> pune ,Maharashtra, India</p>
+      </div>
+      <div>
+          <h2 class="email">Email</h2>
+          <p>shraddhapati123l@gmail.com</p>
+      </div>
+      <div>
+          <h2 class="cont">Phone</h2>
+          <p>+91 9730331473</p>
+          <p>Linkedin</p>
+          <p>Github</p>
+          <p></p>
+
+      </div>
+  </div>
+</section>
+
+
+</body>
+</html>
+
